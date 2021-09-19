@@ -53,7 +53,7 @@ npm run start
 
 - Website: whirl.codes
 - Twitter: [@Whirl_21](https://twitter.com/Whirl_21)
-- Github: [@Whirl21](https://github.com/Whirl21)
+- Github: [@Whirl21](https://github.com/Whirl21)g
 
 ## 🤝 Contributing
 

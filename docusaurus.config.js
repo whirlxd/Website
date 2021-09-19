@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Whirl",
   tagline: "This was supposed to be catchy but turns out it's boring instead",
-  url: "http://localhost:3000",
+  url: "https://whirl.codes",
   favicon: "img/favicon.ico",
   baseUrl: "/",
   onBrokenLinks: "throw",
