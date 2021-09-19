@@ -1,8 +1,9 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: welcome
+title: Welcome To My Blog
 authors: Whirl
-tags: [hola, docusaurus]
+tags: [hello, docusaurus]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Hello there i am whirl! I am writing my blog here 
+that's it xD
