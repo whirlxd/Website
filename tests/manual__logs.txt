@@ -1,0 +1,6 @@
+Site Works : true 
+Site Shows Annoucements : true
+Site Has 2 themes : true
+Blog Works : true
+Blog Has 2 themes : true
+Overall Test = Succeed 
