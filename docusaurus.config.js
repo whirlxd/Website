@@ -11,8 +11,6 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  organizationName: "Whirl", // Usually your GitHub org/user name.
-  projectName: "Website", // Usually your repo name.
   titleDelimiter: "::", // Defaults to `|`
   plugins: [
     [
@@ -77,10 +75,10 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/whirl21/website/edit/blog",
+          editUrl: "https://github.com/Whirl21/Website/tree/prod/blog",
           blogSidebarTitle: "Posts",
           blogSidebarCount: "ALL",
-          blogTitle: "Whirl Whirls",
+          blogTitle: "Whirl's Blog",
           blogDescription:
             "Whirl's Personal blog where he whirls about ... um idk?",
           postsPerPage: "ALL",
