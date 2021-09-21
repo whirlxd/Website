@@ -75,7 +75,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/Whirl21/Website/tree/prod/blog",
+          editUrl: "https://github.com/Whirl21/Website/tree/prod",
           blogSidebarTitle: "Posts",
           blogSidebarCount: "ALL",
           blogTitle: "Whirl's Blog",
