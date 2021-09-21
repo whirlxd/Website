@@ -63,6 +63,33 @@ module.exports = {
             name: "msapplication-TileColor",
             content: "#000",
           },
+          {
+           tagName: "title",
+            content: "Whirl",
+          },
+          {
+           tagName: "sitetitle",
+            content: "whirl.codes",
+          },
+          {
+           tagName: "description",
+            content:
+              "Heyy There! I am Whirl a 13yo self taught full stack developer",
+          },
+          {
+           tagName: "keywords",
+            content:
+              " Discord , node.js  , node , nodejs , javascript , js , developer , backend , frontend , full stack , coder , whirl , whirlwhirls.ml , whirl2 whirl's website,whirl xd, whirlx , whirl ,whirl.codes site , whirl.codes , whirl21 , whirl twitter , whirl dev , whirl.whirls , whirlpool , whirls whirlpool , whirl pro , whirl , whirl xd site",
+          },
+          {
+           tagName: "og:image",
+            content:
+              "https://cdn.discordapp.com/attachments/853630541571162132/863418634251665408/whirldev.gif",
+          },
+          {
+           tagName: "theme-color",
+            content: "#00FFFF",
+          },
         ],
       },
     ],
@@ -98,35 +125,7 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadatas: [
-        {
-          name: "title",
-          content: "Whirl",
-        },
-        {
-          name: "sitetitle",
-          content: "whirl.codes",
-        },
-        {
-          name: "description",
-          content:
-            "Heyy There! I am Whirl a 13yo self taught full stack developer",
-        },
-        {
-          name: "keywords",
-          content:
-            " Discord , node.js  , node , nodejs , javascript , js , developer , backend , frontend , full stack , coder , whirl , whirlwhirls.ml , whirl2 whirl's website,whirl xd, whirlx , whirl ,whirl.codes site , whirl.codes , whirl21 , whirl twitter , whirl dev , whirl.whirls , whirlpool , whirls whirlpool , whirl pro , whirl , whirl xd site",
-        },
-        {
-          name: "og:image",
-          content:
-            "https://cdn.discordapp.com/attachments/853630541571162132/863418634251665408/whirldev.gif",
-        },
-        {
-          name: "theme-color",
-          content: "#00FFFF",
-        },
-      ],
+   
       image: "img/whirll.gif",
 
       navbar: {
