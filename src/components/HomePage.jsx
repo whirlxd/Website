@@ -10,7 +10,7 @@ export default function HomePage() {
       <div className="container avatar avatar--vertical">
         <img
           className="avatar__photo avatar__photo--xxl m-avatar"
-          src="https://github.com/Whirl21.png"
+          src="img/whirll.gif"
           alt="github pic"
         />
         <h1 className="hero__title cyan-text">Whirl</h1>

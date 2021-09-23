@@ -14,7 +14,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  titleDelimiter: "::", 
+  titleDelimiter: "::",
   plugins: [
     [
       "@docusaurus/plugin-pwa",
@@ -67,9 +67,10 @@ module.exports = {
             name: "msapplication-TileColor",
             content: "#000",
           },
-      
         ],
       },
+    ],
+    [
       "@docusaurus/plugin-sitemap",
       {
         changefreq: "weekly",
@@ -166,60 +167,69 @@ module.exports = {
 <meta property="twitter:description" content="Heyy There! I am Whirl a 13yo self taught full stack developer">
 <meta property="twitter:image" content="https://whirl.codes/img/whirll.gif"> */
         {
-        name: 'title',
-        content: 'Whirl'
-      },
-      {
-        name: 'description',
-        content: 'Heyy There! I am Whirl a 13yo self taught full stack developer'
-      },
-      {
-        name: 'og:type',
-        content: 'website'
-      },
-      {
-        name: 'og:url',
-        content: 'https://whirl.codes'
-      },
-      {
-        name: 'og:site_name',
-        content: 'Whirl'
-      },
-      {
-        name: 'og:description',
-        content: 'Heyy There! I am Whirl a 13yo self taught full stack developer'
-      },
-      {
-        name: 'keywords',
-        content: ' Discord , node.js  , node , nodejs , javascript , js , developer , backend , frontend , full stack , coder , whirl , whirlwhirls.ml , whirl2 whirl\'s website,whirl xd, whirlx , whirl ,whirl.codes site , whirl.codes , whirl21 , whirl twitter , whirl dev , whirl.whirls , whirlpool , whirls whirlpool , whirl pro , whirl , whirl xd site'
-      },
-      {
-        name: 'og:image',
-        content: 'https://whirl.codes/whirll.gif'
-      },
-      {
-        name: 'twitter:card',
-        content: 'summary_large_image'
-      },
-   
-      {
-        name: 'twitter:title',
-        content: 'Whirl'
-      },
-      {
-        name: 'twitter:description',
-        content: 'Heyy There! I am Whirl a 13yo self taught full stack developer'
-      },
-      {
-        name: 'twitter:url',
-        content: 'https://whirl.codes'
-      },
-      {
-        name: "theme-color",
-        content: "#00FFFF",
-      },
+          name: "title",
+          content: "Whirl",
+        },
+        {
+          name: "description",
+          content:
+            "Heyy There! I am Whirl a 13yo self taught full stack developer",
+        },
+        {
+          name: "og:type",
+          content: "website",
+        },
+        {
+          name: "og:url",
+          content: "https://whirl.codes",
+        },
+        {
+          name: "og:site_name",
+          content: "Whirl",
+        },
+        {
+          name: "og:description",
+          content:
+            "Heyy There! I am Whirl a 13yo self taught full stack developer",
+        },
+        {
+          name: "keywords",
+          content:
+            " Discord , node.js  , node , nodejs , javascript , js , developer , backend , frontend , full stack , coder , whirl , whirlwhirls.ml , whirl2 whirl's website,whirl xd, whirlx , whirl ,whirl.codes site , whirl.codes , whirl21 , whirl twitter , whirl dev , whirl.whirls , whirlpool , whirls whirlpool , whirl pro , whirl , whirl xd site",
+        },
+        {
+          name: "og:image",
+          content:
+            "https://media.discordapp.net/attachments/853661005871185950/858966288570515476/SPOILER_whirldev.gif",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
 
-    ],
+        {
+          name: "twitter:title",
+          content: "Whirl",
+        },
+        {
+          name: "twitter:description",
+          content:
+            "Heyy There! I am Whirl a 13yo self taught full stack developer",
+        },
+        {
+          name: "twitter:url",
+          content: "https://whirl.codes",
+        },
+        {
+          name: "twitter:image",
+          content:
+            "https://media.discordapp.net/attachments/853661005871185950/858966288570515476/SPOILER_whirldev.gif",
+        },
+        {
+          name: "theme-color",
+          content: "#00FFFF",
+        },
+      ],
 
       prism: {
         theme: lightCodeTheme,
