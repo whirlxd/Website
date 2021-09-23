@@ -12,6 +12,7 @@ module.exports = {
   url: "https://whirl.codes",
   favicon: "img/favicon.ico",
   baseUrl: "/",
+  trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   titleDelimiter: "::",
@@ -75,7 +76,6 @@ module.exports = {
       {
         changefreq: "weekly",
         priority: 0.5,
-        trailingSlash: false,
       },
     ],
   ],
