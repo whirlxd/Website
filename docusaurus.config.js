@@ -71,13 +71,6 @@ module.exports = {
         ],
       },
     ],
-    [
-      "@docusaurus/plugin-sitemap",
-      {
-        changefreq: "weekly",
-        priority: 0.5,
-      },
-    ],
   ],
   presets: [
     [
@@ -103,6 +96,10 @@ module.exports = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         docs: false,
+        sitemap: {
+          changefreq: "daily",
+          priority: 0.5,
+        },
       }),
     ],
   ],
