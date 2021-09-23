@@ -1,7 +1,7 @@
 {
   "name": "Whirl",
   "short_name": "Whirl",
-  "start_url": "./",
+  "start_url": "/",
   "icons": [
     {
       "src": "manifest-icon-192.png",
