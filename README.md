@@ -33,6 +33,7 @@
 - Visually Appealing
 - Responsive
 - Open Source
+- SEO Optimized
 - PWA
 
 ## Install
