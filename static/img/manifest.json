@@ -24,6 +24,8 @@
       "url": "/blog"
     }],
   "theme_color": "#40e0d0",
+  "lang": "en-US",
   "background_color": "#40e0d0",
-  "display": "standalone"
+  "categories": ["books", "blog", "tech" , "personal" , "games"],
+  "display": "fullscreen"
 }

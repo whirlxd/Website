@@ -1,6 +1,6 @@
 {
-  "name": "blog-whirl-codes",
-  "version": "0.0.0",
+  "name": "whirl.codes",
+  "version": "3.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

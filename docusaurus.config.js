@@ -1,6 +1,9 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+/**
+ * @Param [File Puprose] = Docusarus Config File
+ */
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -11,11 +14,12 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  titleDelimiter: "::", // Defaults to `|`
+  titleDelimiter: "::", 
   plugins: [
     [
       "@docusaurus/plugin-pwa",
       {
+        offlineModeActivationStrategies: ["standalone"],
         pwaHead: [
           {
             tagName: "link",
@@ -63,34 +67,14 @@ module.exports = {
             name: "msapplication-TileColor",
             content: "#000",
           },
-          {
-           tagName: "title",
-            content: "Whirl",
-          },
-          {
-           tagName: "sitetitle",
-            content: "whirl.codes",
-          },
-          {
-           tagName: "description",
-            content:
-              "Heyy There! I am Whirl a 13yo self taught full stack developer",
-          },
-          {
-           tagName: "keywords",
-            content:
-              " Discord , node.js  , node , nodejs , javascript , js , developer , backend , frontend , full stack , coder , whirl , whirlwhirls.ml , whirl2 whirl's website,whirl xd, whirlx , whirl ,whirl.codes site , whirl.codes , whirl21 , whirl twitter , whirl dev , whirl.whirls , whirlpool , whirls whirlpool , whirl pro , whirl , whirl xd site",
-          },
-          {
-           tagName: "og:image",
-            content:
-              "https://cdn.discordapp.com/attachments/853630541571162132/863418634251665408/whirldev.gif",
-          },
-          {
-           tagName: "theme-color",
-            content: "#00FFFF",
-          },
+      
         ],
+      },
+      "@docusaurus/plugin-sitemap",
+      {
+        changefreq: "weekly",
+        priority: 0.5,
+        trailingSlash: false,
       },
     ],
   ],
@@ -125,9 +109,6 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-   
-      image: "img/whirll.gif",
-
       navbar: {
         title: "Home",
         style: "dark",
@@ -166,6 +147,79 @@ module.exports = {
 
         copyright: `Copyright © ${new Date().getFullYear()} Built with 🧠 By <a href="https://github.com/whirl21">Whirl</a> `, // You can also put own HTML here
       },
+      metadatas: [
+        /*
+        <meta name="title" content="Whirl">
+<meta name="description" content="Heyy There! I am Whirl a 13yo self taught full stack developer">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://whirl.codes/">
+<meta property="og:title" content="Whirl">
+<meta property="og:description" content="Heyy There! I am Whirl a 13yo self taught full stack developer">
+<meta property="og:image" content="https://whirl.codes/img/whirll.gif">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://whirl.codes/">
+<meta property="twitter:title" content="Whirl">
+<meta property="twitter:description" content="Heyy There! I am Whirl a 13yo self taught full stack developer">
+<meta property="twitter:image" content="https://whirl.codes/img/whirll.gif"> */
+        {
+        name: 'title',
+        content: 'Whirl'
+      },
+      {
+        name: 'description',
+        content: 'Heyy There! I am Whirl a 13yo self taught full stack developer'
+      },
+      {
+        name: 'og:type',
+        content: 'website'
+      },
+      {
+        name: 'og:url',
+        content: 'https://whirl.codes'
+      },
+      {
+        name: 'og:site_name',
+        content: 'Whirl'
+      },
+      {
+        name: 'og:description',
+        content: 'Heyy There! I am Whirl a 13yo self taught full stack developer'
+      },
+      {
+        name: 'keywords',
+        content: ' Discord , node.js  , node , nodejs , javascript , js , developer , backend , frontend , full stack , coder , whirl , whirlwhirls.ml , whirl2 whirl\'s website,whirl xd, whirlx , whirl ,whirl.codes site , whirl.codes , whirl21 , whirl twitter , whirl dev , whirl.whirls , whirlpool , whirls whirlpool , whirl pro , whirl , whirl xd site'
+      },
+      {
+        name: 'og:image',
+        content: 'https://whirl.codes/whirll.gif'
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+   
+      {
+        name: 'twitter:title',
+        content: 'Whirl'
+      },
+      {
+        name: 'twitter:description',
+        content: 'Heyy There! I am Whirl a 13yo self taught full stack developer'
+      },
+      {
+        name: 'twitter:url',
+        content: 'https://whirl.codes'
+      },
+      {
+        name: "theme-color",
+        content: "#00FFFF",
+      },
+
+    ],
 
       prism: {
         theme: lightCodeTheme,
