@@ -2,7 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
-    <img alt="License: GNU 2" src="https://img.shields.io/badge/.svg" />
+    <img alt="License: GNU2" src="https://img.shields.io/badge/License-GNU2-yellow.svg" />
   </a>
      <a href="#" target="_blank">
     <img alt="Size" src="https://img.shields.io/github/repo-size/whirl21/website" />
