@@ -10,8 +10,8 @@ export default function HomePage() {
       <div className="container avatar avatar--vertical">
         <img
           className="avatar__photo avatar__photo--xxl m-avatar"
-          src="img/whirll.gif"
-          alt="github pic"
+          src="https://media.discordapp.net/attachments/853661005871185950/858966288570515476/SPOILER_whirldev.gif"
+          alt="my pic"
         />
         <h1 className="hero__title cyan-text">Whirl</h1>
       </div>
