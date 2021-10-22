@@ -19,3 +19,8 @@ export default function HomePage() {
   );
 }
 //© 2021 Whirl.  All Rights Reserved.
+/**
+ * @License [GPL2](https://www.gnu.org/licenses/gpl-2.0.html)
+ * @Author [Whirl]
+ * @Version [3.0.0]
+ */
