@@ -1,3 +1,0 @@
-refer to test file 
-anytime a commit is made it must be manually tested  
-no jest/mocha/tape/etc. tests are needed 

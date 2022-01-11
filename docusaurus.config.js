@@ -1,9 +1,6 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-/**
- * @Param [File Puprose] = Docusarus Config File
- */
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -83,7 +80,7 @@ module.exports = {
           editUrl: "https://github.com/Whirl21/Website/tree/prod",
           blogSidebarTitle: "Posts",
           blogSidebarCount: "ALL",
-          blogTitle: "Whirl's Blog",
+          blogTitle: "Blog",
           blogDescription:
             "Whirl's Personal blog where he whirls about ... um idk?",
           postsPerPage: "ALL",
@@ -114,54 +111,47 @@ module.exports = {
         items: [
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/whirl21/website",
+            href: "https://twitter.com/whirl_21",
             position: "right",
-            className: "github-icon",
-            "aria-label": "GitHub repository",
+            className: "twitter-icon",
+            "aria-label": "Twitter",
           },
           {
-            type: "dropdown",
-            label: "Socials",
+            href: "https://discord.com/users/808332105108553759",
             position: "right",
-            items: [
-              {
-                href: "https://twitter.com/whirl21",
-                label: "Twitter",
-              },
-              {
-                href: "https://discord.gg/jCtAPhKDee",
-                label: "Discord",
-              },
-              {
-                href: "https://github.com/whirl21",
-                label: "GitHub",
-              },
-            ],
+            className: "discord-icon",
+            "aria-label": "Discord",
+          },
+          {
+            href: "https://github.com/whirl21",
+            position: "right",
+            className: "github-icon",
+            "aria-label": "GitHub",
           },
         ],
       },
       footer: {
         style: "dark",
 
-        copyright: `Copyright © ${new Date().getFullYear()} Built with 🧠 By <a href="https://github.com/whirl21">Whirl</a> `, // You can also put own HTML here
+        copyright: `<a>Copyright © ${new Date().getFullYear()} Built with 🧠 By Whirl </a>`,
       },
       metadatas: [
         /*
         <meta name="title" content="Whirl">
-<meta name="description" content="Heyy There! I am Whirl a 13yo self taught full stack developer">
+<meta name="description" content="Heyy There! I am Whirl a 14yo self taught full stack developer">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://whirl.codes/">
 <meta property="og:title" content="Whirl">
-<meta property="og:description" content="Heyy There! I am Whirl a 13yo self taught full stack developer">
+<meta property="og:description" content="Heyy There! I am Whirl a 14yo self taught full stack developer">
 <meta property="og:image" content="https://whirl.codes/img/whirll.gif">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://whirl.codes/">
 <meta property="twitter:title" content="Whirl">
-<meta property="twitter:description" content="Heyy There! I am Whirl a 13yo self taught full stack developer">
+<meta property="twitter:description" content="Heyy There! I am Whirl a 14yo self taught full stack developer">
 <meta property="twitter:image" content="https://whirl.codes/img/whirll.gif"> */
         {
           name: "title",
@@ -170,7 +160,7 @@ module.exports = {
         {
           name: "description",
           content:
-            "Heyy There! I am Whirl a 13yo self taught full stack developer",
+            "Heyy There! I am Whirl a 14yo self taught full stack developer",
         },
         {
           name: "og:type",
@@ -187,7 +177,7 @@ module.exports = {
         {
           name: "og:description",
           content:
-            "Heyy There! I am Whirl a 13yo self taught full stack developer",
+            "Heyy There! I am Whirl a 14yo self taught full stack developer",
         },
         {
           name: "keywords",
@@ -211,7 +201,7 @@ module.exports = {
         {
           name: "twitter:description",
           content:
-            "Heyy There! I am Whirl a 13yo self taught full stack developer",
+            "Heyy There! I am Whirl a 14yo self taught full stack developer",
         },
         {
           name: "twitter:url",
@@ -232,17 +222,10 @@ module.exports = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      announcementBar: {
-        id: "support_us",
-        content:
-          'Do not forget to join my discord server by clicking <a target="_blank" href="https://discord.gg/jCtAPhKDee"">here</a>',
-        backgroundColor: "#ffff00",
-        textColor: "#00000",
-        isCloseable: true,
-      },
+
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: false,
+        disableSwitch: true,
         switchConfig: {
           darkIcon: "🌑",
           lightIcon: "🌕",
