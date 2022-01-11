@@ -29,7 +29,6 @@
 ## ✨Features
 
 - JamStack
-- Dockerised
 - High Quality & Fast
 - Blog
 - Dark & Light Mode
@@ -37,7 +36,7 @@
 - Responsive
 - Open Source
 - SEO Optimized
-- PWA
+- PWA & Offline support
 
 ## Install
 
@@ -57,7 +56,7 @@ npm run start
 
 - Website: whirl.codes
 - Twitter: [@Whirl_21](https://twitter.com/Whirl_21)
-- Github: [@Whirl21](https://github.com/Whirl21)g
+- Github: [@Whirl21](https://github.com/Whirl21)
 
 ## 🤝 Contributing
 
