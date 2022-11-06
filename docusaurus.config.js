@@ -110,6 +110,7 @@ module.exports = {
 
         items: [
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "https://itp.whirlxd.me", label: "iTp", position: "left" },
           {
             href: "https://twitter.com/whirl_21",
             position: "right",
