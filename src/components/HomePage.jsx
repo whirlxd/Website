@@ -21,7 +21,7 @@ export default function HomePage() {
         <br></br>who likes <i>reading</i> <br></br>
         <b>🤔 manga & novels</b> , he also enjoys <i>listening</i>
         <br></br>
-        to <b>raps and electronic music🤘</b>
+        to <b>raps and rock songs🤘</b>
         <br></br>
         <Link to="/blog" class="button  button--info">
           📖 Blog
