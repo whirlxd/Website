@@ -10,7 +10,7 @@ import HomePage from "../components/HomePage";
 
 export default function Home() {
   return (
-    <Layout description="ME whirl">
+    <Layout description="WHIRL">
       <HomePage />
     </Layout>
   );
