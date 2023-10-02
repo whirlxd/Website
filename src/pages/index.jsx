@@ -17,7 +17,7 @@ export default function Home() {
         Heyy There <b>👋</b>! I am Whirl a self taught full stack developer. I
         am currently learning new javascript <i>frameworks</i> and db's. I love
         playing online games and programming, Though rather unlike some of my
-        friends i do not aspire to be a programmer. I'm <i>as of now</i> a 13
+        friends i do not aspire to be a programmer. I'm <i>as of now</i> a 99
         year old <b>student</b> which effectively means i run short on time due
         to studies and other stuff.
         <br />
