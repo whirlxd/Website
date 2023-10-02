@@ -2,10 +2,13 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
-    <img alt="License: GNU 2" src="https://img.shields.io/badge/.svg" />
+    <img alt="License: GNU2" src="https://img.shields.io/badge/License-GNU2-yellow.svg" />
   </a>
      <a href="#" target="_blank">
     <img alt="Size" src="https://img.shields.io/github/repo-size/whirl21/website" />
+  </a>
+   <a href="#" target="_blank">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/67bc7b5c-75ff-4997-8b56-1c74df4a3bed/deploy-status" />
   </a>
     <a href="#" target="_blank">
     <img alt="Stars" src="https://img.shields.io/github/stars/whirl21/website?style=social" />
@@ -26,14 +29,14 @@
 ## ✨Features
 
 - JamStack
-- Dockerised
 - High Quality & Fast
 - Blog
 - Dark & Light Mode
 - Visually Appealing
 - Responsive
 - Open Source
-- PWA
+- SEO Optimized
+- PWA & Offline support
 
 ## Install
 

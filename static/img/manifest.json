@@ -1,7 +1,7 @@
 {
   "name": "Whirl",
   "short_name": "Whirl",
-  "start_url": ".",
+  "start_url": "/",
   "icons": [
     {
       "src": "manifest-icon-192.png",
@@ -16,7 +16,16 @@
       "purpose": "maskable any"
     }
   ],
+  "shortcuts": [
+    {
+      "name": "Read My Blog",
+      "short_name": "Blog",
+      "description": "Read my blog",
+      "url": "/blog"
+    }],
   "theme_color": "#40e0d0",
+  "lang": "en-US",
   "background_color": "#40e0d0",
+  "categories": ["books", "blog", "tech" , "personal" , "games"],
   "display": "fullscreen"
 }

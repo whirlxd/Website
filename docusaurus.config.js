@@ -6,18 +6,18 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Whirl",
   tagline: "This was supposed to be catchy but turns out it's boring instead",
-  url: "http://localhost:3000",
+  url: "https://whirlxd.me",
   favicon: "img/favicon.ico",
   baseUrl: "/",
+  trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  organizationName: "Whirl", // Usually your GitHub org/user name.
-  projectName: "Website", // Usually your repo name.
-  titleDelimiter: "::", // Defaults to `|`
+  titleDelimiter: "::",
   plugins: [
     [
       "@docusaurus/plugin-pwa",
       {
+        offlineModeActivationStrategies: ["standalone"],
         pwaHead: [
           {
             tagName: "link",
@@ -77,10 +77,10 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/whirl21/website/edit/blog",
+          editUrl: "https://github.com/Whirl21/Website/tree/prod",
           blogSidebarTitle: "Posts",
           blogSidebarCount: "ALL",
-          blogTitle: "Whirl Whirls",
+          blogTitle: "Blog",
           blogDescription:
             "Whirl's Personal blog where he whirls about ... um idk?",
           postsPerPage: "ALL",
@@ -93,6 +93,10 @@ module.exports = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         docs: false,
+        sitemap: {
+          changefreq: "daily",
+          priority: 0.5,
+        },
       }),
     ],
   ],
@@ -100,19 +104,81 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      navbar: {
+        title: "Home",
+        style: "dark",
+
+        items: [
+          { to: "/blog", label: "Blog", position: "left" },
+          { to: "https://itp.whirlxd.me", label: "iTp", position: "left" },
+          {
+            href: "https://twitter.com/whirl_21",
+            position: "right",
+            className: "twitter-icon",
+            "aria-label": "Twitter",
+          },
+          {
+            href: "https://discord.com/users/808332105108553759",
+            position: "right",
+            className: "discord-icon",
+            "aria-label": "Discord",
+          },
+          {
+            href: "https://github.com/whirl21",
+            position: "right",
+            className: "github-icon",
+            "aria-label": "GitHub",
+          },
+        ],
+      },
+      footer: {
+        style: "dark",
+
+        copyright: `<a>Copyright © ${new Date().getFullYear()} Built with 🧠 By Whirl </a>`,
+      },
       metadatas: [
+        /*
+        <meta name="title" content="Whirl">
+<meta name="description" content="Heyy There! I am Whirl a 14yo self taught full stack developer">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://whirl.codes/">
+<meta property="og:title" content="Whirl">
+<meta property="og:description" content="Heyy There! I am Whirl a 14yo self taught full stack developer">
+<meta property="og:image" content="https://whirl.codes/img/whirll.gif">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://whirl.codes/">
+<meta property="twitter:title" content="Whirl">
+<meta property="twitter:description" content="Heyy There! I am Whirl a 14yo self taught full stack developer">
+<meta property="twitter:image" content="https://whirl.codes/img/whirll.gif"> */
         {
           name: "title",
           content: "Whirl",
         },
         {
-          name: "sitetitle",
-          content: "whirl.codes",
-        },
-        {
           name: "description",
           content:
-            "Heyy There! I am Whirl a 13yo self taught full stack developer",
+            "Heyy There! I am Whirl a 14yo self taught full stack developer",
+        },
+        {
+          name: "og:type",
+          content: "website",
+        },
+        {
+          name: "og:url",
+          content: "https://whirl.codes",
+        },
+        {
+          name: "og:site_name",
+          content: "Whirl",
+        },
+        {
+          name: "og:description",
+          content:
+            "Heyy There! I am Whirl a 14yo self taught full stack developer",
         },
         {
           name: "keywords",
@@ -122,70 +188,45 @@ module.exports = {
         {
           name: "og:image",
           content:
-            "https://cdn.discordapp.com/attachments/853630541571162132/863418634251665408/whirldev.gif",
+            "https://media.discordapp.net/attachments/853661005871185950/858966288570515476/SPOILER_whirldev.gif",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+
+        {
+          name: "twitter:title",
+          content: "Whirl",
+        },
+        {
+          name: "twitter:description",
+          content:
+            "Heyy There! I am Whirl a 14yo self taught full stack developer",
+        },
+        {
+          name: "twitter:url",
+          content: "https://whirl.codes",
+        },
+        {
+          name: "twitter:image",
+          content:
+            "https://media.discordapp.net/attachments/853661005871185950/858966288570515476/SPOILER_whirldev.gif",
         },
         {
           name: "theme-color",
           content: "#00FFFF",
         },
       ],
-      image: "img/whirll.gif",
-
-      navbar: {
-        title: "Home",
-        style: "dark",
-
-        items: [
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/whirl21/website",
-            position: "right",
-            className: "github-icon",
-            "aria-label": "GitHub repository",
-          },
-          {
-            type: "dropdown",
-            label: "Socials",
-            position: "right",
-            items: [
-              {
-                href: "https://twitter.com/whirl21",
-                label: "Twitter",
-              },
-              {
-                href: "https://discord.gg/jCtAPhKDee",
-                label: "Discord",
-              },
-              {
-                href: "https://github.com/whirl21",
-                label: "GitHub",
-              },
-            ],
-          },
-        ],
-      },
-      footer: {
-        style: "dark",
-
-        copyright: `Copyright © ${new Date().getFullYear()} Built with 🧠 By <a href="https://github.com/whirl21">Whirl</a> `, // You can also put own HTML here
-      },
 
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      announcementBar: {
-        id: "support_us",
-        content:
-          'Do not forget to join my discord server by clicking <a target="_blank" href="https://discord.gg/jCtAPhKDee"">here</a>',
-        backgroundColor: "#ffff00",
-        textColor: "#00000",
-        isCloseable: true,
-      },
+
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
+        disableSwitch: true,
         switchConfig: {
           darkIcon: "🌑",
           lightIcon: "🌕",

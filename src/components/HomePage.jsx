@@ -37,4 +37,3 @@ export default function HomePage() {
     </header>
   );
 }
-//© 2021 Whirl.  All Rights Reserved.

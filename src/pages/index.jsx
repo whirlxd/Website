@@ -9,11 +9,9 @@ import "../css/custom.css";
 import HomePage from "../components/HomePage";
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description="Whirl is a full stack developer.">
+    <Layout description="WHIRL">
       <HomePage />
-      
     </Layout>
   );
 }
